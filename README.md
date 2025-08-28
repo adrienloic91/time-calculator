@@ -5,7 +5,7 @@ It can also calculate the resulting day of the week and how many days later it w
 
 ---
 
-## Project Description
+## 📋 Project Description
 
 The `add_time` function takes three inputs:  
 1. `start` (str): The start time in 12-hour format (e.g., `"3:30 PM"`).  
@@ -19,7 +19,7 @@ It returns a string showing:
 
 ---
 
-## Example Usage ![Example Usage](https://img.shields.io/badge/Example%20Usage-yellow)
+## Example Usage
 
 ```python
 from time_calculator import add_time
@@ -36,3 +36,4 @@ print(add_time("2:59 AM", "24:00"))
 print(add_time("8:16 PM", "466:02", "Tuesday"))
 
 # Output: "6:18 AM, Monday (20 days later)"
+
