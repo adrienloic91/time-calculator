@@ -19,7 +19,7 @@ It returns a string showing:
 
 ---
 
-## Example Usage
+## 💻 Example Usage
 
 ```python
 from time_calculator import add_time
@@ -36,4 +36,5 @@ print(add_time("2:59 AM", "24:00"))
 print(add_time("8:16 PM", "466:02", "Tuesday"))
 
 # Output: "6:18 AM, Monday (20 days later)"
+
 
